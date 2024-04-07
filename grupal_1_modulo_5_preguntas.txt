@@ -1,0 +1,34 @@
+a. ¿Qué tipo de datos les permite guardar fechas?¿Y horas?
+	Para fechas existe DATE (solo fecha), DATETIME (fecha y hora específicas sin zona horaria) y TIMESTAMP (marca de tiempo específica que considera la zona horaria).
+	Para registrar horas tenemos TIME (solo hora) DATETIME y TIMESTAMP nuevamente.
+
+b. ¿Qué utilidad tiene especificar el número de caracteres en SQL?
+	Principalmente sirve para delimitar la cantidad de caracteres almacenados (ahorrar espacio); también sirve para validar datos en los que SE DEBE cumplir con cierta cantidad de caracteres.
+
+c. Por último, definan el acrónimo CRUD.
+	Se refiere a las operaciones básicas que podemos llevar a cabo con la base de datos (por sus iniciales en inglés): 
+Create (crear),
+Read (leer),
+Update (actualizar),
+Delete (eliminar).
+
+d. Qué palabra clave se utiliza para:
+- Mostrar bases de datos en SQL. 
+	♥SHOW DATABASE
+
+- Describir una base de datos en SQL.
+	♥DESCRIBE nombre_tabla
+
+- Seleccionar una base de datos.
+	♥USE nombre_base_de_datos
+
+- Crear una tabla.
+	♥CREATE TABLE nombre_tabla
+
+- ¿Qué es una primary key? y una foreign key?
+	♥Llave primaria: es un campo que define de manera única a cada registro en una tabla (no puede duplicarse). En otras palabras, es un identificador único para cada fila.
+
+	♥Llave foránea: la llave foránea en una tabla hace referencia a la llave primaria de otra tabla; establece una relación permitiendo la conexión y la referencia de datos entre las tablas.
+
+- Que diferencias hay entre utilizar MySQL shell y MySQL Workbench.
+	♥Mientras Workbench es una herramienta de administración de datos con interfaz visual, Shell es netamente de línea de comandos, por lo que apuntan a diferentes tipos de usuario (Shell es para usuarios más experimentados que se manejan más con el scripting, Workbench para aquellos que prefieren la organización gráfica), aún así, ambos permiten administrar las bases de datos, ejecutar consultas, administrar usuarios y permisos, importar y exportar datos, entre otros.
